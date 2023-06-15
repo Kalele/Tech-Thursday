@@ -1,0 +1,39 @@
+{
+  "name": "cytest",
+  "version": "1.0.0",
+  "description": "testing cypress10",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cucumber": "^1.3.3",
+    "cypress": "^10.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.2",
+    "cypress-xpath": "^2.0.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0",
+    "wdio-cucumberjs-json-reporter": "^4.4.3"
+  },
+  "testFiles": "**/*.feature",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/step-definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "overwrite": false,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "e2e.",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "dependencies": {
+    "resolve": "^1.22.1",
+    "typescript": "~3.5.3",
+    "multiple-cucumber-html-reporter": "^2.0.0"
+  }
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "LandingPage Functionality",
+    "line": 1,
+    "id": "landingpage-functionality",
+    "tags": [],
+    "uri": "LandingPage.feature",
+    "elements": [
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-landingpage-in-order-to-see-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I want to navigate to landingpage in order to see the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 4677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the top four heroes are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-dashboard-in-order-to-see-top-4-heroes-displayed",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a TOH user, I want to navigate to dashboard in order to see top 4 Heroes displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 1263000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the top four heroes are displayed",
+            "result": {
+              "status": "passed",
+              "duration": 666000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-select-a-hero-from-the-dashboard-in-order-to-see-the-hero-details-displayed",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "As a TOH user, I want to select a hero from the dashboard in order to see the hero details displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user clicks on first hero on the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the hero detail is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "landingpage-functionality;as-a-toh-user,-i-want-to-navigate-to-heroes-page-in-order-to-see-the-heroes-details",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a TOH user, I want to navigate to heroes page in order to see the heroes details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on heroes tab",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the heroes detail is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    This Feature tests login scenarios",
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "line": 1,
+    "id": "login-functionality",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;as-a-react-app-user,-i-want-to-login-with-valid-creds-in-order-to-see-the-dashboard",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a react-app user, I want to login with valid creds in order to see the dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user on the react-app landing page",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user is on the login screen",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user executes a login",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user shall see the employee dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
