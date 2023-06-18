@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    This feature tests the message scenarios",
+    "keyword": "Feature",
+    "name": "Message Functionality",
+    "line": 1,
+    "id": "message-functionality",
+    "tags": [],
+    "uri": "Message.feature",
+    "elements": [
+      {
+        "id": "message-functionality;as-a-toh-user,-i-want-to-clear-messages-in-order-to-see-the-message-log-cleared",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "As a toh user, I want to clear messages in order to see the message log cleared",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 40153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks on the clear button",
+            "result": {
+              "status": "passed",
+              "duration": 6084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the messages will be removed",
+            "result": {
+              "status": "passed",
+              "duration": 504000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

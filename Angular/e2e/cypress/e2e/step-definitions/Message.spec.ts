@@ -7,14 +7,14 @@ Given(/^the user is on the landing page$/, () => {
     cy.visit("http://localhost:4200/dashboard");
 });
 
-Then(/^the messages are displayed$/, () => {
-    commonObjects.FindDomItem(commonObjects.ClearButton())
-});
+// Then(/^the messages are displayed$/, () => {
+//     commonObjects.FindDomItem(commonObjects.ClearButton())
+// });
 
-When(/^the user clicks on the clear messages button$/, () => {
+When(/^the user clicks on the clear button$/, () => {
     commonObjects.ClickButtonByXpath(commonObjects.ClearButton())
 });
 
-Then(/^the all messages are removed$/, () => {
+Then(/^the messages will be removed$/, () => {
     commonObjects.VerifyDomItemDoesNotExist(commonObjects.ClearButton())
 });
