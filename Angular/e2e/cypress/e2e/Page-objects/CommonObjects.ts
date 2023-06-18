@@ -51,6 +51,10 @@ export class CommonObjects {
   FindDomItem(ElementXpath: string) {
     cy.xpath(ElementXpath).should('exist');
   }
+  
+  VerifyDomItemDoesNotExist(ElementXPath: string) {
+    cy.xpath(ElementXPath).should('not.exist')
+  }
 
   VerifyIfTopFourHeoresDisplayed() {
     this.FindDomItem(this.SelectDashboardHero('1'));
@@ -66,4 +70,5 @@ export class CommonObjects {
   VerifyIfHeroesDetailIsDisplayed(){
     this.FindDomItem(this.HeroesDetail());
   }
+
 }
